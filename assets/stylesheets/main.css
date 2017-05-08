@@ -1,0 +1,86 @@
+body{
+	font-family: "Montserrat", arial;
+	text-align: center;
+	background-color: #ffcc99;
+	width: 100%;
+
+}
+.game-box{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	min-height: 550px;
+	width: 550px;
+	background-color: #333;
+	border-radius: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.game-button{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	border: 25px solid;
+	cursor: pointer;
+}
+.left-upper{
+	left: 0;
+	top: 0;
+	background-color: #9f0f17;
+	border-top-left-radius: 100%;	
+}
+.right-upper{
+	right: 0;
+	top: 0;
+	background-color: #094a8f;	
+	border-top-right-radius: 100%;
+}
+.left-lower{
+	left: 0;
+	bottom: 0;
+	background-color: #cca707;
+	border-bottom-left-radius: 100%;	
+}
+.right-lower{
+	right: 0;
+	bottom: 0;
+	background-color: #00a74a;
+	border-bottom-right-radius: 100%;	
+}
+.right-upper.button-active{
+	background-color: pink;
+}
+
+.right-lower.button-active{
+	background-color: pink;
+}
+
+.left-lower.button-active{
+	background-color: pink;
+}
+
+.left-upper.button-active{
+	background-color: pink;
+}
+.console-box{
+	position: absolute;
+	border-radius: 100%;
+	width: 50%;
+	height: 50%;
+	background-color: #ECE7EE;
+	z-index: 1;
+	top: 25%;
+	right: 25%;
+	border: 15px solid;
+}
+.score-display{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	font-size: 2rem;
+}
+.btn-start{
+	position: absolute;
+	top: 43%;
+	left: 36%;
+}
