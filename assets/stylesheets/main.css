@@ -15,6 +15,7 @@ body{
 	border-radius: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	box-shadow: 3px 2px 15px;
 }
 .game-button{
 	position: absolute;
@@ -29,11 +30,17 @@ body{
 	background-color: #9f0f17;
 	border-top-left-radius: 100%;	
 }
+.left-upper:active{
+	background-color: #ff4c4c;
+}
 .right-upper{
 	right: 0;
 	top: 0;
 	background-color: #094a8f;	
 	border-top-right-radius: 100%;
+}
+.right-upper:active{
+	background-color: #1c8cff;	
 }
 .left-lower{
 	left: 0;
@@ -41,26 +48,33 @@ body{
 	background-color: #cca707;
 	border-bottom-left-radius: 100%;	
 }
+.left-lower:active{
+	background-color: #fed93f;
+}
 .right-lower{
 	right: 0;
 	bottom: 0;
 	background-color: #00a74a;
 	border-bottom-right-radius: 100%;	
 }
+.right-lower:active{
+	background-color: #13ff7c;
+
+}
 .right-upper.button-active{
-	background-color: pink;
+	background-color: #1c8cff;
 }
 
 .right-lower.button-active{
-	background-color: pink;
+	background-color: #13ff7c;
 }
 
 .left-lower.button-active{
-	background-color: pink;
+	background-color: #fed93f;
 }
 
 .left-upper.button-active{
-	background-color: pink;
+	background-color: #ff4c4c;
 }
 .console-box{
 	position: absolute;
@@ -73,14 +87,51 @@ body{
 	right: 25%;
 	border: 15px solid;
 }
-.score-display{
+.score-box{
 	position: absolute;
-	top: 40%;
-	left: 20%;
-	font-size: 2rem;
+	background-color: darkred;
+	top: 42%;
+	left: 10%;
+	width: 30%;
+	height: 15%;
+	border-radius: 15%;
+	border: 2px solid;	
 }
-.btn-start{
+.score-display{
+	font-size: 1.5rem;
+	margin-bottom: -1.8px;
+}
+.start-box{
 	position: absolute;
 	top: 43%;
+	left: 44%;
+}
+.btn-start{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	border-radius: 100%;
+	border: 2px solid;	
+}
+.strict-box{
+	position: absolute;
+	top: 35.6%;
+	right: 10%;		
+}
+.btn-strict{
+	width: 30px;
+	height: 30px;
+	background-color: yellow;
+	border-radius: 100%;
+	border: 2px solid;
+	margin-top: 18px;
+}
+.strict-light{
+	position: absolute;
 	left: 36%;
+	width: 15px;
+	height: 15px;
+	background-color: black	;
+	border-radius:100%;
+	border: 2px solid;
 }
